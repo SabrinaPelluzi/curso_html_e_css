@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'robotica';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(150, 188, 166);
+    font-family: Arial, Helvetica, sans-serif;     
+}
+
+span {
+    padding: 10px;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify
+}
+
+#section_2 {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#section_1 {
+    padding: 20px; 
+}
+
+#navbar {
+    background-image: linear-gradient(to top, darkgreen , green, lightgreen );
+    color: white ;
+    padding: 10px 20px 5px 10px;
+    width: 100%;
+    margin: -10px -10px 0 -10px;
+}
+
+#containernav {
+    text-align: center;
+}
+
+#container { 
+    background-color: white;
+    width: 80%;  
+    border-radius: 0px 0px 10px 10px;
+}
+
+#background {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{ 
+    text-align: center;
+}
+
+#subtitulo {
+    font-size: 40px;
+    color: gren;
+    font-family: 'robotica', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-indent: 10px;
+    color: green;
+}
+
+#learning_card {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;  
+}
+
+#card_title {
+    color: white;
+    background-color: #2fa866;
+    padding: 12px 7px;  
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.162);
+    border-radius: 10px 10px 0px 0px;
+       
+}
+
+#card_content {
+   background-color: #c5ebd6;
+   padding: 7px;
+   border-radius: 0px 0px 10px 10px;
+   box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.162);
+}
+
+#card_out {
+    margin: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#listas { 
+    display: flex;
+}
+
+span:hover {
+    color: black;
+}
+
+.fonterobo {
+    font-family: 'robotica', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-indent: 10px;
+    color: green;
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.753) , rgba(144, 238, 144, 0.562), white );
+}
+
+#footer {
+    color: white;
+    background-color: darkgreen;
+    width: 100%;
+    margin: 10px -10px -10px -10px;
+    text-align: center;
+    font-size: 60%;
+}
+
